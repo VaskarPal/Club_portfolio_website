@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 116vh;
+	/*background-color: goldenrod;*/
+	background-image: url('C:\\Users\\Vaskar-PC\\Desktop\\HTML CSS\\football\\moo\\back.png');
+	background-size: 100% 100%;
+}
+
+.mainheader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.mainheader .logo img{
+	width: 250px; height: 250px;
+	padding-top: 80px;
+	padding-left: 40px;
+
+}
+.mainheader nav{
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.mainheader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+.menubtn{
+	margin-right: 60px;
+}
+.mainheader button{
+	padding: 10px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background-color: blue;
+
+}
+
+main{
+	width: 100%;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+main .right-sec .black img{
+width: 50px; height: 30px;	
+padding-right: 70px;
+}
+main .left-sec{
+padding-right: 100px;
+}
+.left-sec h3{
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #242424;
+	margin-top: 150px;
+
+}
+.left-sec h1{
+	font-size: 55px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 12px 0;
+}
+.left-sec p{
+	margin-bottom: 20px;
+}
+.left-sec button{
+	padding: 15px 45px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	background-color: blue;
+
+}
+.run_contact{
+	width: 110%;
+	height: 100px;
+	/*background-color: seagreen;*/
+	position: relative;
+}
+.run_contact img{
+	width: 150px; height: 120px;
+	position: absolute;
+	left: 0px; top: -8px;
+	animation-name: goboy;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+}
+@keyframes goboy{
+	from{left: 0;}
+	to{left: 70%;}
+}
+
+
